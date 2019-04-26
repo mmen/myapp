@@ -1,0 +1,77 @@
+body {
+	font-family: Helvetica, sans-serif;
+	line-height: 1.5em;
+	padding: 15px;
+}
+
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+	color: blue;
+}
+
+.highlight {
+	background-color: orange;
+}
+
+p {margin: 0 0 1em 0;}
+
+.ui-message {
+	background-color: #FFF1C7;
+	border: 5px solid #F2E1AC;
+	padding: 10px 30px 10px 15px;
+	margin: 0 0 1em 0;
+	font-weight: bold;
+	font-size: 13px;
+	position: relative;
+}
+
+.ui-message p {
+	margin: 0;
+}
+
+.ui-close {
+	background-color: #F2E1AC;
+	color: #8A7A49;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1px 6px;
+	cursor: pointer;
+}
+
+.ui-close:hover {
+	background-color: #8A7A49;
+	color: #F2E1AC;
+}
+
+.faq-question {
+	color: blue;
+	cursor: pointer;
+}
+
+.img-right {
+	max-width: 50%;
+	float: right;
+	margin: 0 0 1em 15px;
+}
+
+.about-placeholder {
+	background-color: #F1FAD2;
+	padding: 10px 15px;
+	border: 5px solid #DDE8B7;
+	margin: 0 0 1em 0;
+	font-size: 13px;
+}
+
+#about {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
