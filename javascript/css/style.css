@@ -42,6 +42,11 @@ button:hover {
   background-color: #034F66;
 }
 
+.active {
+  background-color: #f5f5dc;
+  font-weight: bold;
+}
+
 button:active {
   background-color: #034154;
   box-shadow: none;
