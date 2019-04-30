@@ -1,0 +1,45 @@
+CREATE TABLE IF NOT EXISTS `pdo_admin` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userid` varchar(15) NOT NULL,
+  `password` varchar(15) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `status` binary(1) NOT NULL,
+  UNIQUE KEY `id` (`id`),
+  UNIQUE KEY `userid` (`userid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
+
+--
+-- Dumping data for table `pdo_admin`
+--
+
+INSERT INTO `pdo_admin` (`id`, `userid`, `password`, `name`, `status`) VALUES
+(1, 'admin1', 'test1', 'Admin', 'T'),
+(2, 'admin2', 'test2', 'myAdmin', 'F'),
+(3, 'admin3', 'test3', 'Admin', 'T'),
+(6, 'admin4', 'test4', 'Admin', 'T'),
+(7, 'admin5', 'test5', 'Admin', 'A'),
+(8, 'adm#in6', 'test6', 'Admin', 'A'),
+(9, 'admin7', 'test7', 'Admin', 'A'),
+(10, 'admi''n8', 'test8', 'Admin', 'A'),
+(12, 'admin9', 'test9', 'Admin', 'A'),
+(13, 'Admin10', 'test10', 'Admin', 'A'),
+(16, 'test', 'testing', 'Subhendu', 'F');
+
+
+CREATE TABLE IF NOT EXISTS `student` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL DEFAULT '',
+  `class` varchar(10) NOT NULL DEFAULT '',
+  `mark` int(3) NOT NULL DEFAULT '0',
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `student`
+--
+
+INSERT INTO `student` (`id`, `name`, `class`, `mark`) VALUES
+(1, 'John Deo', 'Four', 75),
+(2, 'Max Ruin', 'Three', 85),
+(3, 'Arnold', 'Three', 55),
+(4, 'Krish Star', 'Four', 60);
