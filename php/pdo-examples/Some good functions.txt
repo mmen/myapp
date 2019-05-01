@@ -1,0 +1,26 @@
+//How to check whether a value exists?
+
+function emailExists($pdo, $email) {
+    $stmt = $pdo->prepare("SELECT 1 FROM users WHERE email=?");
+    $stmt->execute([$email]); 
+    return $stmt->fetchColumn();
+)
+
+if (emailExists($email)) {
+    // found
+}
+
+
+-------------
+//Authenticating a user using PDO and password_verify()
+
+$stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
+$stmt->execute([$_POST['email']]);
+$user = $stmt->fetch();
+
+if ($user && password_verify($_POST['pass'], $user['pass']))
+{
+    echo "valid!";
+} else {
+    echo "invalid";
+}

@@ -1,0 +1,29 @@
+//get current page URL
+$url=$_SERVER['REQUEST_URI'];
+echo $url;
+
+-------------
+
+<?php
+echo "Yesterday Date : ";
+echo date("Y-m-d",strtotime("yesterday"));
+?>
+
+<?php
+echo "Tomorrow date :";
+echo date("Y-m-d",strtotime("tomorrow"));
+?>
+
+--------------
+
+html to pdf : https://phpgurukul.com/how-to-convert-html-to-pdf-using-dompdf-in-php/
+
+--------------
+// Get current indian time zone in PHP
+<?php
+date_default_timezone_set('Asia/Kolkata');
+$currentTime = date( 'd-m-Y h:i:s A', time () );
+echo $currentTime;
+?>
+
+--------------

@@ -1,0 +1,6 @@
+How run this script
+1. Download the the zip file
+2. Extract the file and paste inside root directory(for xampp xamp/htdocs, for wampp/www,fpr lamp var/www/html)
+3. Create a database with name pdo
+4. Import pdo.sql file(given inside the zip package)
+5.run the script http://localhost/pdo
