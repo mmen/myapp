@@ -1,0 +1,4 @@
+How to Kill process on port 8080 Windows?
+Steps to kill process running on port 8080,
+netstat -ano | findstr < Port Number >
+taskkill /F /PID < Process Id >
