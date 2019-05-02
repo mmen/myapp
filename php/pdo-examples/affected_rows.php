@@ -2,7 +2,7 @@
 
 require_once('includes/conn.inc.php');
 
-$id = 12;
+$id = 6;
 
 $nrows = $pdo->exec("DELETE FROM student WHERE id IN (1, 2, 3)");
 
