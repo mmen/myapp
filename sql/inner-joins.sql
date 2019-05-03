@@ -1,0 +1,3 @@
+SELECT  A.PK AS A_PK, A.Value AS A_Value, B.Value AS B_Value, B.PK AS B_PK
+FROM A INNER JOIN B
+ON A.PK = B.PK; 
