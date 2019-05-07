@@ -1,0 +1,4 @@
+/boot : 512 MB - ext2 - Primary
+/     : 20 GB - ext4 - Primary
+/swap : ram size - swap area - Primary
+/home : the rest of the harddrive - ext4 - Primary
