@@ -1,0 +1,6 @@
+1. open .bashrc
+2. add 
+
+export PATH=$PATH:/path/to/dir
+
+3. source ~/.bashrc

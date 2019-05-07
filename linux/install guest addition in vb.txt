@@ -1,0 +1,10 @@
+1. Add guest addition iso : Device -> Insert Guest Addition CD
+2. Via command line, goto : 
+	
+	cd /media/mmen/VBox_GAs_6.0.4/
+	
+	sudo ./VBoxLinuxAdditions.run
+	
+3. Activate Drag and Drop : Device -> Drag and Drop -> Bidirectional
+
+4. Activate share clipboard : Device -> Share Clipboard -> Bidirectional
