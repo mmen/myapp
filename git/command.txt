@@ -1,0 +1,9 @@
+$ git config --list
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession"
+
+------
+
+$ git clone https://github.com/mmen/myapp.git
