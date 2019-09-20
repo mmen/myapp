@@ -1,0 +1,6 @@
+In VS Code :
+
+1. Change intergrate Terminal in setting
+2. Change Font Size
+3. Install extension : Lorem Ipsum
+

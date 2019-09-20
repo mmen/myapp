@@ -1,0 +1,85 @@
+Install Laravel using Composer:
+1. Download composer : http://getcomposer.org
+2. Install Composer
+
+Create Laravel Project
+$ composer create-project laravel/laravel lsapp # Create laravel project name lsapp
+$ php artisan make:controller PagesController # Create controller PagesController
+$ php artisan make:model Post -m # Create model Post with migration file in Database folder
+
+Edit migration file to add table field and run command:
+$ php artisan migrate # Create table structure in Database
+
+Using Tinker Tool to insert/select data into db table:
+$ php artisan tinker
+
+Psy Shell v0.9.9 (PHP 7.3.4 — cli) by Justin Hileman
+>>> App\Post::count() # Count record in table Post
+=> 0
+>>> $post = new App\Post(); # create new object of table Post
+=> App\Post {#2999}
+>>> $post->title = 'Post One'; #Insert title field set value to 'Post One'
+=> "Post One"
+>>> $post->body = 'This is the post body'; $ Insert body field set value to 'This is the post body'
+=> "This is the post body"
+>>> $post->save(); # Save data into database
+=> true
+>>>quit
+
+Create resource function/method in controller:
+
+	Resource function/methods in controller
+    ---------------------------------------
+    $ php artisan make:controller PostsController --resource
+    index : to list all the posts
+    create : represent the form. Ex: post/create : it should be a create form and submit to function call store
+    store : submit to the model and to the database
+    edit : Edit form and submit to the function call update
+    update : submit the update to model and to the database
+    show : show a single post
+    destroy : delete
+
+To show all the route we have in the application:
+$ php artisan route:list
+
+Form and HTML
+https://laravelcollective.com/docs/5.4/html
+
+installation via composer : composer require "laravelcollective/html":"^5.4.0"
+
+After installation, add your new provider to the providers array of config/app.php and add two class aliases to the aliases array of config/app.php:
+
+'providers' => [
+    // ...
+    Collective\Html\HtmlServiceProvider::class,
+    // ...
+  ],
+  
+'aliases' => [
+    // ...
+      'Form' => Collective\Html\FormFacade::class,
+      'Html' => Collective\Html\HtmlFacade::class,
+    // ...
+  ],
+
+  
+
+---------------------------------------------------------------------------------------------------
+
+Some Artisan Commands:
+$ php artisan list
+$ php artisan help migrate
+$ php artisan make:controller TodosController # Create controller
+$ php artisan make:model Todo -m # Create model (dbtable) -m to create migratation for Todo model
+$ php artisan make:migratation add_todos_to_db -table=todos
+$ php artisan migrate
+$ php artisan tinker # Go to tinker program. tinker a tool that we can use to insert, select data
+
+Using Tinker Tool:
+
+
+
+$ npm install # to add node_modules
+$ npm run dev # to compile. It will look at sass file and asset to compile.
+$ npm run watch # will constantly watch the file. You don't need to recompile everytime you make change to sass file or asset.
+
