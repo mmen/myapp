@@ -62,7 +62,39 @@ After installation, add your new provider to the providers array of config/app.p
     // ...
   ],
 
-  
+To install laravel-ckeditor : https://github.com/UniSharp/laravel-ckeditor
+https://ckeditor.com/docs/ckeditor4/latest/guide/dev_package_managers.html
+
+$ composer require unisharp/laravel-ckeditor
+
+To enable authentication: (To enable all the user model & auth controller and login system)
+https://laravel.com/docs/6.x/authentication
+
+$ php artisan make:auth
+
+For Laravel 6 : 
+
+$ composer require laravel/ui
+$ php artisan ui vue --auth
+
+This command used on fresh applications and will install a layout view, registration and login views, as well as routes for all authentication end-points. 
+A HomeController will also be generated to handle post-login requests to your application's dashboard.
+
+Create migration to add field to database table
+
+$ php artisan make:migration add_user_id_posts
+
+Edit the file database/add_user_id_posts then run
+
+$ php artisan migrate
+
+to Rolback run:
+
+$ php artisan migrate:rollback
+
+To create symlink in laravel
+
+$ php artisan storage:link
 
 ---------------------------------------------------------------------------------------------------
 
