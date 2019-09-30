@@ -1,0 +1,40 @@
+Here is a list of 12 Chrome extensions that can help the productivity for web developers, programmers and web designers
+
+JAVASCRIPT AND CSS CODE BEAUTIFIER
+https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald?hl=en
+
+WEB DEVELOPER
+https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US
+
+GISTBOX CLIPPER
+https://chrome.google.com/webstore/detail/gistbox-clipper/cejmhmbmafamjegaebkjhnckhepgmido?hl=en
+
+GITHUB AUTOCOMPLETE
+https://chrome.google.com/webstore/detail/awesome-autocomplete-for/djkfdjpoelphhdclfjhnffmnlnoknfnd?hl=en
+
+PHP CONSOLE
+https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef/related?hl=en
+
+POSTMAN
+https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en%20
+
+MARMOSET
+https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb?hl=en%20
+
+WINDOW RESIZER
+https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en%20
+
+COLORZILLA
+https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en%20
+
+LOREM IPSUM GENERATOR
+https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en%20
+
+WAPPALYZER
+https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related?hl=en%20
+
+REACT DEV TOOLS
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+MOMENTUM
+https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en%20
