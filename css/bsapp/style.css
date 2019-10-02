@@ -1,0 +1,8 @@
+.card-body {
+    background-color: antiquewhite;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #8c343c;
+}
