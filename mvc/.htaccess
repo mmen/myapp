@@ -1,0 +1,3 @@
+RewriteEngine On
+#RewriteRule (.*) webroot/index.php
+RewriteRule (.*) webroot/$1 [L]
