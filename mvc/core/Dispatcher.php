@@ -11,18 +11,15 @@ class Dispatcher{
 		Router::parse($this->request->url, $this->request);
 		$controller = $this->loadController();
 		if(!in_array($this->request->action, get_class_methods($controller))){
-			$this->error('This controller '.$this->request->controller.' n\'a pas de méthode '.$this->request->action);
+			$this->error('This controller "'.$this->request->controller.'" n\'a pas de méthode "'.$this->request->action.'"');
 		}
 		call_user_func_array(array($controller,$this->request->action), $this->request->params);
 		$controller->render($this->request->action);
 	}
 
-	function error($message){
-		header("HTTP/1.0 405 Not Found"); 
+	function error($message){		 
 		$controller = new Controller($this->request);
-		$controller->set('message',$message);
-		$controller->render('/errors/404');
-		die();
+		$controller->e404($message);
 	}
 
 	function loadController(){
@@ -31,4 +28,5 @@ class Dispatcher{
 		require $file;
 		return new $name($this->request);
 	}
+
 }
